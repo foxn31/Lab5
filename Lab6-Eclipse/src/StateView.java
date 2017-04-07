@@ -13,7 +13,7 @@ import javax.swing.*;
  * </P>
  * 
  * @version 1.0
- * @author Dean Hougen and (Your Names)
+ * @author Dean Hougen and Nicholas Fox, Clayton Glenn, and Tristan Dow
  */
 public class StateView extends JFrame implements ActionListener {
 	// Needs a serialVersionUID because the class is Serializable
@@ -54,7 +54,7 @@ public class StateView extends JFrame implements ActionListener {
 		populateJList();
 		if (this.model != null) {
 			// TODO: Register the view as ___ for the ___.
-
+			model.addActionListener(this);
 		}
 	}
 

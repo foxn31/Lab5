@@ -15,7 +15,7 @@ import java.util.*;
  * </P>
  * 
  * @version 1.0
- * @author Dean Hougen and (Your Names)
+ * @author Dean Hougen and Nicholas Fox, Clayton Glenn, and Tristan Dow
  */
 
 public class Model {

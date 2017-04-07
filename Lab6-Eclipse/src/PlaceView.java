@@ -46,7 +46,7 @@ public class PlaceView extends JFrame implements ActionListener {
 		this.model = model;
 		if (this.model != null) {
 			// TODO: Register the view as ___ for the ___.
-
+			model.addActionListener(this);
 		}
 	}
 
