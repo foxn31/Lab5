@@ -20,11 +20,11 @@ import java.util.*;
 
 public class Model {
 	// TODO: Add the list of action listeners
-
+	ArrayList<ActionListener> actionListenerList;
 	// TODO: Add the list of places in a state (created from the file)
-
+	List<Place> statePlaceList;
 	// TODO: Add the list of places selected for more detailed display
-
+	ArrayList<Place> selectedPlaceList;
 	// The most recently selected place
 	Place selectedPlace = null;
 
@@ -82,7 +82,7 @@ public class Model {
 			selectedPlaceList.add(selectedPlace);
 
 			// TODO: Notify the listener of the change in subList
-
+			processEvent(new ActionEvent(this, ActionEvent.ACTION_PERFORMED, "Addition to Selected Places"));
 		}
 	}
 
